@@ -109,7 +109,7 @@ const Login = () => {
                   name="name"
                   value={signupInput.name}
                   onChange={(e) => changeInputHandler(e, "signup")}
-                  placeholder="Eg. patel"
+                  placeholder="Eg. pallavi"
                   required="true"
                 />
               </div>
@@ -120,7 +120,7 @@ const Login = () => {
                   name="email"
                   value={signupInput.email}
                   onChange={(e) => changeInputHandler(e, "signup")}
-                  placeholder="Eg. patel@gmail.com"
+                  placeholder="Eg. pallavi@gmail.com"
                   required="true"
                 />
               </div>
@@ -131,7 +131,7 @@ const Login = () => {
                   name="password"
                   value={signupInput.password}
                   onChange={(e) => changeInputHandler(e, "signup")}
-                  placeholder="Eg. xyz"
+                  placeholder="Eg. ***"
                   required="true"
                 />
               </div>
@@ -169,7 +169,7 @@ const Login = () => {
                   name="email"
                   value={loginInput.email}
                   onChange={(e) => changeInputHandler(e, "login")}
-                  placeholder="Eg. patel@gmail.com"
+                  placeholder="Eg. pallavi@gmail.com"
                   required="true"
                 />
               </div>
@@ -180,7 +180,7 @@ const Login = () => {
                   name="password"
                   value={loginInput.password}
                   onChange={(e) => changeInputHandler(e, "login")}
-                  placeholder="Eg. xyz"
+                  placeholder="Eg. pallavi"
                   required="true"
                 />
               </div>
